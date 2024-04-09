@@ -1,0 +1,57 @@
+.Navbar{
+    padding: 1px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 4px black;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.menu-img, .upload-img, .notify-img, .more-img {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
+
+.search-img {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    transform: translateY(-50%);
+}
+
+.logo-img{
+    width: 70px;
+    height: 70px;
+}
+.mid-menu{
+    position: relative;
+    width: 30rem;
+}
+.search-bar {
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 25px;
+    background: transparent;
+}
+
+.right-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-menu{
+    width : 25;
+    margin-right: 25px;
+}
+
+.profile-img{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    border: 50%;
+}
