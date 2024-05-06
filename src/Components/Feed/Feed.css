@@ -6,7 +6,7 @@
     margin-top: 15px;
 }
 .card {
-    font-family: Arial, sans-serif; /* This is a neutral, clean font */
+    font-family: 'Gill Sans'; /* This is a neutral, clean font */
     color: #333; /* Dark grey for a formal, readable look */
 }
 
@@ -16,12 +16,13 @@
 }
 
 .card h2 {
-    font-size: 1.3em; /* Make the title larger */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em; /* Make the title larger */
     margin-bottom: 0.5em; /* Add some space below the title */
 }
 
 .card h3 {
-    font-size: 1em; /* Slightly smaller font size for the subtitle */
+    font-size: 0.8em; /* Slightly smaller font size for the subtitle */
     color: #777; /* Lighter text color for less emphasis */
     font-style: italic;
     margin-bottom: 0.5em; /* Space below the subtitle */
@@ -29,4 +30,5 @@
 
 .card p {
     color: #999; /* Even lighter color for the least-emphasized text */
+    font-size: 0.8em;
 }

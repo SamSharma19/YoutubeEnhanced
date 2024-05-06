@@ -1,12 +1,13 @@
 import React from 'react'
 import './Navbar.css'
+import {Link} from 'react-router-dom';
 
 const Navbar = ({setSideview}) => {
   return (
     <div className = "Navbar flex-div">
         <div className = "left-menu flex-div">
             <img src="../../src/assets/menu.png" className = "menu-img" onClick = {()=>setSideview(prev=>prev===false?true:false)} alt="menu" />
-            <img src="../../src/assets/logo.jpg" className = "logo-img"alt="logo" />
+            <Link to='/'><img src="../../src/assets/logo.png" className = "logo-img"alt="logo" /></Link>
         </div>
 
         <div className = "mid-menu flex-div">
